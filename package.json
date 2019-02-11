@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "my demo app services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StioDevolpper/myDemo.git"
+  },
+  "author": "khaled",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StioDevolpper/myDemo/issues"
+  },
+  "homepage": "https://github.com/StioDevolpper/myDemo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
